@@ -1,0 +1,267 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background: white;
+}
+#headerTop {
+    width: 100%;
+    background-color: #f7f7f7;
+}
+#headerTop > #headerTopWrapper {
+    width: 980px;
+    margin: 0px auto;
+    padding: 11px;
+}
+#headerTop > #headerTopWrapper > .language {
+    color: #a3a1a1;
+    font-size: 12px;
+    float: left;
+}
+#headerTop > #headerTopWrapper > .account {
+    color: #a3a1a1;
+    font-size: 12px;
+    float: right;
+}
+#header {
+    width: 100%;
+    background: #fcfcfc;
+}
+#header > #headerWrapper {
+    width: 980px;
+    margin: 0px auto;
+}
+#header > #headerWrapper > #logo {
+    float: left;
+    margin: 32px 0px;
+    padding: 11px 50px 11px 0px;
+    background-image: url("../images/separator.jpg");
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+#header > #headerWrapper > #topMenu {
+    float: left;
+}
+#header > #headerWrapper > #topMenu > ul {
+    margin: 40px 0px;
+    padding: 0px;
+}
+#header > #headerWrapper > #topMenu > ul > li {
+    list-style-type: none;
+    display: inline;
+    margin: 0px 25px;
+}
+#header > #headerWrapper > #topMenu > ul > li > a {
+    font-size: 16px;
+    color: #7f7f7f;
+    text-decoration: none;
+}
+#header > #headerWrapper > #basket {
+    float: right;
+    padding: 7px 15px;
+    border: 2px solid #7f7e7e;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+#header > #headerWrapper > #basket > span {
+    color: #878686;
+    font-size: 16px;
+    font-weight: bold;
+}
+#header > #headerWrapper > #basket > * {
+    float: left;
+}
+#header > #headerWrapper > #basket > #cardPrice {
+    padding: 6px 10px 6px 20px;
+}
+#slide {
+    background-image: url("../images/slide.jpg");
+    height: 430px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#slide > #slideWrapper {
+    width: 885px;
+    margin: 0px auto;
+}
+#slide > #slideWrapper > h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 135px;
+    margin-bottom: 10px;
+}
+#slide > #slideWrapper > h3 {
+    margin: 0px;
+    font-size: 22px;
+    font-weight: 100;
+    color: white;
+    text-transform: uppercase;
+}
+#slide > #slideWrapper > a {
+    margin-top: 38px;
+    display: block;
+    width: 210px;
+    background: white;
+    font-weight: bold;
+    font-size: 18px;
+    color: #65889b;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px 0px;
+    -webkit-transition: background 0.5s ease;
+    transition: background 0.5s ease;
+    -o-transition: background 0.5s ease;
+    -moz-transition: background 0.5s ease;
+}
+#slide > #slideWrapper > a:hover {
+    background: #65889b;
+    color: white;
+}
+#content {
+    width: 980px;
+    margin: 0px auto;
+}
+#content > .latestProductTitle {
+    width: 570px;
+    background-image: url("../images/latest.jpg");
+    height: 20px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 60px auto 38px;
+}
+#content > .latestProductTitle > h1 {
+    font-size: 20px;
+    color: #656363;
+}
+
+#content > .contentWrapper > .product {
+    width: 290px;
+    margin-left: 40px;
+    border: 4px solid #f7f6f6;
+    float: left;
+}
+#content > .contentWrapper :first-child {
+    margin-left: 0px;
+}
+#content > .contentWrapper > .product > .productPic {
+    width: 150px;
+    height: 210px;
+    margin: 25px auto 35px;
+    overflow: hidden;
+}
+#content > .contentWrapper > .product > h1.title {
+    color: #717171;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+#content > .contentWrapper > .product > span.price {
+    text-align: center;
+    display: block;
+    color: #717171;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#footer {
+    margin-top: 55px;
+    background: #fdfcfc;
+    width: 100%;
+    border-top: 1px solid #f2f1f1;
+    padding-bottom: 30px;
+}
+#footer > #footerWrapper {
+    width: 980px;
+    margin: 0px auto;
+}
+#footer > #footerWrapper > .footerColumn1 {
+    width: 176px;
+    margin-top: 60px;
+    float: left;
+}
+#footer > #footerWrapper > .footerColumn1 > h1 {
+    font-size: 20px;
+    color: #656363;
+    font-weight: bold;
+}
+#footer > #footerWrapper > .footerColumn1 > p {
+    color: #868585;
+    font-size: 14px;
+    margin-top: 1px;
+}
+#footer > #footerWrapper > .footerColumn1 > b {
+    color: #868585;
+    font-size: 14px;
+}
+#footer > #footerWrapper > .footerColumn2 {
+    margin-top: 60px;
+    float: left;
+    margin-left: 80px;
+}
+#footer > #footerWrapper > .footerColumn2 > h1 {
+    font-size: 20px;
+    color: #656363;
+    font-weight: bold;
+}
+#footer > #footerWrapper > .footerColumn2 > .blogPost > h3 {
+    font-weight: bold;
+    font-size: 16px;
+    color: #717171;
+    margin: 0px;
+    display: inline;
+}
+#footer > #footerWrapper > .footerColumn2 > .blogPost > h3:hover {
+    color: #f54d56;
+}
+#footer > #footerWrapper > .footerColumn2 > .blogPost > p {
+    color: #868585;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+#footer > #footerWrapper > .footerColumn3 {
+    margin-top: 60px;
+    float: left;
+    margin-left: 30px;
+    width: 320px;
+}
+#footer > #footerWrapper > .footerColumn3 > h1 {
+    font-size: 20px;
+    color: #656363;
+    font-weight: bold;
+}
+#footer > #footerWrapper > .footerColumn3 > ul {
+    margin: 0px;
+    padding: 0px;
+}
+#footer > #footerWrapper > .footerColumn3 > ul > li {
+    display: inline-block;
+    width: 155px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #868585;
+}
+#copy {
+    width: 980px;
+    margin: 0px auto;
+    padding: 22px 0px;
+    background-image: url("../images/linefooter.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: #a6a6a6;
+    font-size: 13px;
+}
+#copy > #cards {
+    float: right;
+    width: 188px;
+    height: 20px;
+    background-image: url("../images/cards.jpg");
+}
+.clear {
+    clear: both;
+}
